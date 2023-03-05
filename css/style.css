@@ -28,7 +28,7 @@ main{
     padding-top: 30px;
 }
 
-#griglia{
+.griglia{
     width: 700px;
     height: 700px;
     margin: auto;
@@ -36,9 +36,10 @@ main{
     flex-wrap: wrap;
 }
 .cella{
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 2px solid darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clicked{
@@ -53,4 +54,14 @@ main{
     padding-top: 15px;
     margin-top: 10px;
     cursor: pointer;
+    margin-bottom: 10px;
+}
+.cellafacile{
+    width: calc(100% / 10);
+    height: calc(100% / 10); 
+}
+
+.cellamedia{
+    width: calc(100% / 9);
+    height: calc(100% / 9); 
 }
