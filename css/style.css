@@ -28,7 +28,7 @@ main{
     padding-top: 30px;
 }
 
-.griglia{
+#griglia{
     width: 700px;
     height: 700px;
     margin: auto;
@@ -64,4 +64,8 @@ main{
 .cellamedia{
     width: calc(100% / 9);
     height: calc(100% / 9); 
+}
+.celladifficile{
+    width: calc(100% / 7);
+    height: calc(100% / 7);  
 }
